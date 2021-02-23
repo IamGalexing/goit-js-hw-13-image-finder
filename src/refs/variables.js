@@ -5,7 +5,8 @@ const refs = {
   headerHeight: document.querySelector('header').offsetHeight,
   cardItem: document.querySelectorAll('.photo-card'),
   cardImage: document.querySelectorAll('.photo-card__image'),
-  stats: document.querySelectorAll('.stats'),
+  modal: document.querySelector('.modal'),
+  modalImg: document.querySelector('.modal__img'),
 };
 
 export default refs;
